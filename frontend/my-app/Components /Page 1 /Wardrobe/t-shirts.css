@@ -1,0 +1,23 @@
+.tshirtstext {
+    display: flex;
+width: 272px;
+height: 65px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: "Pixelify Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 60px */
+letter-spacing: -0.4px;
+}
+
+.tshirtsbox {width: 342px;
+height: 88px;
+flex-shrink: 0;
+aspect-ratio: 171/44;
+background: url(https://i.postimg.cc/xjL2GGft/Screenshot-2025-09-22-at-3-18-53-PM.png) lightgray 50% / cover no-repeat;
+}

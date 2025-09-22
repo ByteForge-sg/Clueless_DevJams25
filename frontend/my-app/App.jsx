@@ -8,7 +8,8 @@ import Age from "./components/Age/Age";
 import Name from "./components/Name/Name";
 import Username from "./components/Username/Username";
 import Button from "./components/Button/Button";
-import DecorativeItems from "./components/DecorativeItems/DecorativeItems";
+import DecorativeItems from "./components/Decoration1/Decoration1";
+import Accessories from "./components/accessories/accessories";
 
 // Global CSS
 import "./index.css";
@@ -55,4 +56,6 @@ export default function App() {
       <Button onClick={handleLogin} />
     </div>
   );
+
+  <Accessories text="Accessories" />
 }
