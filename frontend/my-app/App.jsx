@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Import your components
+// Components
 import Logo from "./components/Logo/Logo";
 import BackCard from "./components/BackCard/BackCard";
 import NextCard from "./components/NextCard/NextCard";
@@ -8,17 +8,16 @@ import Age from "./components/Age/Age";
 import Name from "./components/Name/Name";
 import Username from "./components/Username/Username";
 import Button from "./components/Button/Button";
+import DecorativeItems from "./components/DecorativeItems/DecorativeItems";
 
-// Import global CSS
+// Global CSS
 import "./index.css";
 
 export default function App() {
-  // States for input fields
   const [age, setAge] = useState("");
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
 
-  // Dummy login function
   const handleLogin = () => {
     alert(`Name: ${name}, Age: ${age}, Username: ${username}`);
   };
@@ -32,13 +31,13 @@ export default function App() {
         alignItems: "center",
         gap: "24px",
         padding: "40px",
-        background: "#f7f7f7", // page background
+        background: "#f7f7f7",
       }}
     >
       {/* Logo */}
       <Logo />
 
-      {/* BackCard */}
+      {/* Back Card */}
       <BackCard text="Go Back" />
 
       {/* Input fields */}
@@ -46,8 +45,11 @@ export default function App() {
       <Name value={name} onChange={(e) => setName(e.target.value)} />
       <Username value={username} onChange={(e) => setUsername(e.target.value)} />
 
-      {/* NextCard */}
+      {/* Next Card */}
       <NextCard text="Next Step" />
+
+      {/* Decorative Images */}
+      <DecorativeItems />
 
       {/* Login Button */}
       <Button onClick={handleLogin} />

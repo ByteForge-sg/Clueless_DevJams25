@@ -1,0 +1,102 @@
+.butterfly {width: 417px;
+height: 255px;
+flex-shrink: 0;
+aspect-ratio: 139/85;
+background: url(https://i.postimg.cc/R0sjsjc7/Screenshot-2025-09-22-at-2-02-18-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.shoe1 {
+    width: 170px;
+height: 194px;
+flex-shrink: 0;
+aspect-ratio: 85/97;
+background: url(https://i.postimg.cc/VsMVnSHB/Screenshot-2025-09-22-at-2-04-20-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.shoe2 {width: 170px;
+height: 194px;
+flex-shrink: 0;
+aspect-ratio: 85/97;
+background: url(https://i.postimg.cc/V6zdg0Wr/Screenshot-2025-09-22-at-2-06-34-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.bag1{width: 167px;
+height: 145px;
+flex-shrink: 0;
+aspect-ratio: 167/145;
+background: url(https://i.postimg.cc/Dy31D6dH/Screenshot-2025-09-22-at-2-16-43-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.bag2{width: 167px;
+height: 145px;
+flex-shrink: 0;
+aspect-ratio: 167/145;
+background: url(https://i.postimg.cc/tT0gTSTH/Screenshot-2025-09-22-at-2-17-37-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.dress1{width: 184px;
+height: 186px;
+flex-shrink: 0;
+aspect-ratio: 92/93;
+background: url(https://i.postimg.cc/63BDYnbv/Screenshot-2025-09-22-at-2-18-56-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.dress2{
+width: 184px;
+height: 186px;
+flex-shrink: 0;
+aspect-ratio: 92/93;
+background: url(https://i.postimg.cc/pdH7LKH6/Screenshot-2025-09-22-at-2-19-41-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.shell1{width: 218px;
+height: 172px;
+flex-shrink: 0;
+aspect-ratio: 109/86;
+background: url(https://i.postimg.cc/28NXw4q8/Screenshot-2025-09-22-at-2-20-15-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.shell2{
+width: 218px;
+height: 172px;
+flex-shrink: 0;
+aspect-ratio: 109/86;
+background: url(https://i.postimg.cc/rF9gN7XQ/Screenshot-2025-09-22-at-2-20-53-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.boots1{width: 267px;
+height: 216px;
+flex-shrink: 0;
+aspect-ratio: 89/72;
+background: url(https://i.postimg.cc/x82yK36w/Screenshot-2025-09-22-at-2-21-26-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.boots2{
+width: 267px;
+height: 216px;
+flex-shrink: 0;
+aspect-ratio: 89/72;
+background: url(https://i.postimg.cc/QxnKDqpj/Screenshot-2025-09-22-at-2-21-58-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.bow1{width: 199px;
+height: 188px;
+flex-shrink: 0;
+aspect-ratio: 199/188;
+background: url(https://i.postimg.cc/pTxpCctJ/Screenshot-2025-09-22-at-2-22-21-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.bow2{
+width: 199px;
+height: 188px;
+flex-shrink: 0;
+aspect-ratio: 199/188;
+background: url(https://i.postimg.cc/SRRQ1w1C/Screenshot-2025-09-22-at-2-22-58-PM.png) lightgray 50% / cover no-repeat;
+}
+
+.decorative-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
