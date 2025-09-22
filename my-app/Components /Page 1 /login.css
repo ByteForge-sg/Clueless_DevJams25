@@ -1,0 +1,12 @@
+.login-button {
+    display: flex;
+    width: 410px;
+    height: 40px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #000;
+}

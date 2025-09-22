@@ -1,0 +1,7 @@
+.logo {
+    width: 1440px;
+height: 558px;
+flex-shrink: 0;
+aspect-ratio: 1013/558;
+background: url(https://i.postimg.cc/8CLh3wb5/Image-22-09-25-at-10-57-AM.jpg) lightgray 50% / cover no-repeat;
+}
